@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language displayName="தமிழ்" culture="ta" version="1.0">
+   <screen name="frmMain" value="விண்மீன்உலகவழக்கவெளிஅச்சு">
+      <control name="lblSearchHeading" value="விண்மீன்உவவெஅ - தேடல்" />
+      <control name="lblSearchText" value="தேடல் உரை" />
+      <control name="lblFileTypes" value="கோப்பு வகைகள்" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="lblSearchPath" value="தேடல் பாதை" />      
+      <control name="chkNegation" value="அல்லாத" tooltip="தேடல் உரை இல்லாத கோப்புகளைக் கண்டறி" />
+      <control name="chkFileNamesOnly" value="கோப்புப் பெயர்களை மட்டும் காட்டு" tooltip="பொருத்தங்கள் உள்ள கோப்புகளின் பெயர்களைக் காட்டு, ஆனால் உள்ளடக்கங்களைக் காட்டாதே (பெரிய கோப்புகளில் இது வேகமாக இருக்கலாம்)" />
+      <control name="chkRecurse" value="துணைக்கோப்புறைகளில் தேடு" tooltip="துணைக்கோப்புறைகளுக்குள்ளும் தேடு" />
+      <control name="chkWholeWordOnly" value="முழு சொல்" tooltip="முழு சொற்களை மட்டும் பொருத்திப் பார்க்கும் (சொல்லின் பகுதிகளை அல்ல)" />
+      <control name="chkCaseSensitive" value="எழுத்து உணர்வுநிலை" tooltip="பெரிய மற்றும் சிறிய எழுத்துக்களைத் துல்லியமாகப் பொருத்திப் பார்" />
+      <control name="chkRegularExpressions" value="வழக்கமான கோவைகள்" tooltip="வழக்கமான கோவைகள் பொருத்த முறையைப் பயன்படுத்து" />
+      <control name="chkAllResultsAfterSearch" value="தேடலுக்குப் பிறகு அனைத்து முடிவுகளையும் காட்டு" tooltip="தேடலுக்குப் பிறகு அனைத்து முடிவுகளையும் முன்னோட்டத்தில் ஒன்றாகக் காட்டுகிறது" />
+      <control name="chkSearchInResults" value="முடிவுகளுக்குள் தேடு" tooltip="தற்போது காட்டப்படும் முடிவுகளின் கோப்புப் பட்டியலுக்குள் தேடு" />
+      <control name="lblSearchOptions" value="தேடல் விருப்பங்கள்" />
+      <control name="picBrowse" tooltip="உலாவு...(சேர்க்க Shift-சொடுக்குக)" />
+      <control name="lnkExclusions" value="விலக்குகள்" />
+      <control name="lnkPlugins" value="செருகுநிரல்கள்" />
+      <control name="lstFileNames">
+         <menuitem index="0" value="அனைத்தையும் நகலெடு" />
+         <menuitem index="1" value="பெயரை நகலெடு" />
+         <menuitem index="2" value="இடத்தை நகலெடு" />
+         <menuitem index="3" value="இடம் + பெயர் ஆகியவற்றை நகலெடு" />
+         <menuitem index="4" value="-" />
+         <menuitem index="5" value="கோப்புச் செயல்பாடுகள்">
+            <menuitem index="0" value="நகலெடு" />
+            <menuitem index="1" value="நீக்கு" />
+         </menuitem>
+         <menuitem index="6" value="-" />
+         <menuitem index="7" value="கோப்பைத் திற" />
+         <menuitem index="8" value="அடைவைத் திற" />
+         <menuitem index="9" value="தொடர்புடைய செயலியுடன் திற" />
+         <menuitem index="10" value="-" />
+         <menuitem index="11" value="பட்டியலிலிருந்து நீக்கு" />
+      </control>
+      <control name="btnSearch" value="தேடு" />
+      <menu index="0" value="கோப்பு">
+         <menuitem index="0" value="புதிய சாளரம்" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="தேடல் பாதையைத் தேர்ந்தெடு..." />
+         <menuitem index="3" value="-" />
+         <menuitem index="4" value="முடிவுகளைச் சேமி..." />
+         <menuitem index="5" value="முடிவுகளை அச்சிடு..." />
+         <menuitem index="6" value="-" />
+         <menuitem index="7" value="வெளியேறு" />
+         <menuitem index="8" value="அனைத்திலிருந்தும் வெளியேறு" />
+      </menu>
+      <menu index="1" value="தொகு">
+         <menuitem index="0" value="அனைத்துக் கோப்புகளையும் தேர்ந்தெடு" />
+         <menuitem index="1" value="தேர்ந்தெடுக்கப்பட்ட கோப்புகளைத் திற" />
+      </menu>
+      <menu index="2" value="காட்சி">
+         <menuitem index="0" value="நிலைச் செய்திகள்" />
+         <menuitem index="1" value="விலக்கல் செய்திகள்" />
+         <menuitem index="2" value="பிழை செய்திகள்" />
+         <menuitem index="3" value="அனைத்து செய்திகள்" />
+         <menuitem index="4" value="-" />
+         <menuitem index="5" value="உருமாற்று">
+            <menuitem index="0" value="பெரிதாக்கு (Ctrl+சுட்டிச் சக்கரம் மேலே)"/>
+            <menuitem index="1" value="சிறிதாக்கு (Ctrl+சுட்டிச் சக்கரம் கீழே)"/>
+            <menuitem index="2" value="இயல்புநிலை அளவை மீட்டமை"/>
+         </menuitem>
+         <menuitem index="6" value="வரி எண்கள்" />
+         <menuitem index="7" value="சொல் மடிப்பு" />
+         <menuitem index="8" value="முன்னோடி இடைவெளிகளை நீக்கு"/>
+         <menuitem index="9" value="முழு கோப்பு" />
+         <menuitem index="10" value="அனைத்து எழுத்துகளையும் காட்டு" />
+         <menuitem index="11" value="-" />
+         <menuitem index="12" value="அனைத்து முடிவுகள்" />
+      </menu>
+      <menu index="3" value="கருவிகள்">
+         <menuitem index="0" value="அண்மையில் பயன்படுத்திய பட்டியல்களை அழி">
+            <menuitem index="0" value="தேடல் பாதை"/>
+            <menuitem index="1" value="கோப்பு வகைகள்"/>
+            <menuitem index="2" value="தேடல் உரை"/>
+            <menuitem index="3" value="-"/>
+            <menuitem index="4" value="அனைத்தும்"/>
+         </menuitem>
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="தேடல் விருப்பங்களைச் சேமி" />
+         <menuitem index="3" value="விருப்பங்கள்" />
+      </menu>
+      <menu index="4" value="உதவி">
+         <menuitem index="0" value="உதவியைக் காண்" />
+         <menuitem index="1" value="வழக்கமான வெளிப்பாடுகள்" />
+         <menuitem index="2" value="பதிவு கோப்பு" />
+         <menuitem index="3" value="-" />
+         <menuitem index="4" value="புதுப்பிப்புகளைச் சரிபார்..." />
+         <menuitem index="5" value="-" />
+         <menuitem index="6" value="நன்கொடை அளி" />
+         <menuitem index="7" value="விண்மீன்உலகவழக்கவெளிஅச்சு பற்றி" />
+      </menu>
+      
+      <!-- status bar items default state-->
+      <control name="sbTotalCountPanel" value="மொத்தம்: 0 / 0"/>
+      <control name="sbFileCountPanel" value="கோப்பு: 0 / 0"/>
+      <control name="sbFilterCountPanel" value="விலக்குகள்: 0" tooltip="விலக்குகளைக் காட்ட இருமுறை சொடுக்குக"/>
+      <control name="sbErrorCountPanel" value="Error: 0" tooltip="பிழைகளைக் காட்ட இருமுறை சொடுக்குக"/>
+
+      <!-- Results Toolstrip -->
+      <control name="ResultsZoomInButton" tooltip="பெரிதாக்கு (Ctrl+சுட்டிச் சக்கரம் மேலே)" />
+      <control name="ResultsZoomOutButton" tooltip="சிறிதாக்கு (Ctrl+சுட்டிச் சக்கரம் கீழே)" />
+      <control name="ResultsZoomResetButton" tooltip="இயல்புநிலை அளவை மீட்டமை" />
+      <control name="ResultsViewLineNumbersButton" tooltip="வரி எண்கள்" />
+      <control name="ResultsViewWordWrapButton" tooltip="சொல் மடிப்பு" />
+      <control name="ResultsViewRemovingLeadingButton" tooltip="முன்னோடி இடைவெளிகளை நீக்கு" />
+      <control name="ResultsViewEntireFileButton" tooltip="முழு கோப்பு" />
+      <control name="ResultsViewShowCharactersButton" tooltip="அனைத்து எழுத்துகளையும் காட்டு" />
+      <control name="ResultsViewAllResultsButton" tooltip="அனைத்து முடிவுகளும்" />
+      <control name="ResultsContextLinesLabel" value="சூழல் வரிகள்" />
+      <control name="ResultsContextLinesBeforeCombo" tooltip="பொருந்திய சொல்லுக்கு மேலே உள்ள வரிகளைக் காட்டு" />
+      <control name="ResultsContextLinesAfterCombo" tooltip="பொருந்திய சொல்லுக்கு கீழே உள்ள வரிகளைக் காட்டு" />
+      <control name="ResultsNavPrevButton" tooltip="முந்தைய பொருத்தத்திற்குச் செல்" />
+      <control name="ResultsNavNextButton" tooltip="அடுத்த பொருத்தத்திற்குச் செல்" />
+   </screen>
+   <screen name="frmAbout" value="{0} பற்றி">
+      <control name="lnkHomePage" value="{0} முகப்புப் பக்கம்" />
+      <control name="LicenseLinkLabel" value="குனு உரிமம்"/>
+      <control name="CopyrightLabel" value="பதிப்புரிமை (C) 2002 - {0} AstroComma Inc."/>
+      <control name="lblDescription" value="கூடுதல் பதிப்புரிமை (C) 2002 Theodore L. Ward அவர்களுக்குச் சொந்தமானது. விண்மீன்உலகவழக்கவெளிஅச்சு மென்பொருளுக்கு எவ்விதமான உத்தரவாதமும் கிடையாது. இது ஒரு கட்டற்ற மென்பொருளாகும்; குறிப்பிட்ட சில நிபந்தனைகளுக்கு உட்பட்டு, இதை நீங்கள் மறுவிநியோகம் செய்யலாம்."/>
+      <control name="lblDisclaimer" value="Theodore Ward அவர்களால் உருவாக்கப்பட்டு, Curtis Beard அவர்களால் .வலை தளத்திற்கு மாற்றப்பட்டது"/>
+   </screen>
+   <screen name="frmAddEditTextEditor" value="உரைத் தொகுப்பிகள்">
+      <control name="lblAllTypesMessage" value="கோப்பு வகைக்குப் பதிலாக '*' குறியீட்டைப் பயன்படுத்துவதன் மூலம், அறியப்படாத அனைத்து கோப்பு வகைகளுக்கும் ஒரு உரைத் தொகுப்பியைப் பயன்படுத்தலாம்." />
+      <control name="lblCmdOptions" value="கட்டளை வரி விருப்பங்கள்:&#xD;&#xA;  %1 - கோப்பு&#xD;&#xA;  %2 - வரிசை எண்&#xD;&#xA;  %3 - நெடுவரிசை&#xD;&#xA;  %4 - தேடப்பட்ட உரை" />
+      <control name="lblCmdOptionsView" value="முன்னோட்டம்: {0} {1}" />
+      <control name="btnBrowse" tooltip="உலாவு..." />
+      <control name="lblCmdLineArgs" value="கட்டளை வரி" />
+      <control name="lblTextEditorLocation" value="உரைத் தொகுப்பி அமைவிடம்" />
+      <control name="lblFileType" value="கோப்பு வகை" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="btnOK" value="சரி" />
+      <control name="lblMultiTypes" value="வகைகளை | குறியீட்டைக் கொண்டு பிரி"/>
+      <control name="lblTabSize" value="தாவல் அளவு" />
+      <control name="chkUseQuotesAroundFileName" value="கோப்புப் பெயரைச் சுற்றி மேற்கோள் குறிகளைப் பயன்படுத்து"/>
+   </screen>
+   <screen name="frmOptions" value="விருப்பத்தேர்வுகள்">
+      <control name="chkRightClickOption" value="கோப்புறைகளில் வலது-சொடுக்கு விருப்பத்தை அமை" />
+      <control name="lblStoredPaths" value="அண்மையில் பயன்படுத்தப்பட்ட பாதைகளில் சேமிக்கப்பட வேண்டியவற்றின் எண்ணிக்கை" />
+      <control name="btnEdit" value="திருத்து..." />
+      <control name="btnRemove" value="நீக்கு" />
+      <control name="btnAdd" value="சேர்..." />
+      <control name="lblResultPreview" value="முடிவுகளின் முன்னோட்டம்" />
+      <control name="lblResultsWindowBack" value="பின்னணி நிறம்" />
+      <control name="lblResultsWindowFore" value="முன்னணி நிறம்" />
+      <control name="lblResultsContextForeColor" value="சூழல் சார்ந்த முன்னணி நிறம்" />
+      <control name="lblResultsLongLineCount" value="நீண்ட வரி எண்ணிக்கை" />
+      <control name="lblResultsBeforeAfterCount" value="முன்/பின் எண்ணிக்கை" />
+      <control name="grpResultWindow" value="முடிவுகள் சாளரம்" />
+      <control name="BackColorLabel" value="பின்னணி நிறம்" />
+      <control name="ForeColorLabel" value="முன்னணி நிறம்" />
+      <control name="grpResultMatch" value="முடிவுகளின் பொருத்தம்" />
+      <control name="btnOK" value="சரி" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="tabResults" value="முடிவுகள்" />
+      <control name="tabGeneral" value="பொது" />
+      <control name="tabTextEditors" value="உரைத் தொகுப்பிகள்" />
+      <control name="LanguageGroup" value="மொழி"/>
+      <control name="chkDesktopShortcut" value="திரைப்பலக குறுக்குவழி"/>
+      <control name="chkStartMenuShortcut" value="துவக்கபட்டியல் குறுக்குவழி"/>
+      <control name="ShortcutGroup" value="குறுக்குவழிகள்"/>      
+      <control name="btnFindFont" value="எழுத்துருவைக் கண்டறி..."/>
+      <control name="chkShowExclusionErrorMessage" value="தேடலில் விலக்கப்பட்ட உருப்படிகள் கண்டறியப்படும்போதோ அல்லது பிழை ஏற்படும்போதோ அறிவிப்பைக் காட்டு"/>
+      <control name="chkSaveSearchOptions" value="வெளியேறும்போது தேடல் விருப்பங்களைச் சேமி"/>
+      <control name="grpFileList" value="கோப்புப் பட்டியல்" />
+      <control name="btnFileFindFont" value="எழுத்துருவைக் கண்டறி..."/>
+      <control name="chkDetectFileEncoding" value="கோப்பு குறியாக்கத்தைக் கண்டறி"/>
+      <control name="chkSaveMessagesPosition" value="செய்திகள் சாளரத்தின் நிலையைச் சேமி"/>
+      <control name="chkSaveExclusionsPosition" value="விலக்குகள் சாளரத்தின் நிலையைச் சேமி"/>
+      <control name="chkLabelColor" value="தலைப்புகளுக்கு வண்ணத்தை பயன்படுத்து"/>
+
+      <control name="tabFileEncoding" value="கோப்பு குறியாக்கம்" />
+      <control name="btnFileEncodingAdd" value="சேர்..."/>
+      <control name="btnFileEncodingEdit" value="திருத்து..."/>
+      <control name="btnFileEncodingDelete" value="நீக்கு"/>
+      <control name="lblPerformance" value="செயல்திறன்"/>
+      <control name="chkUseEncodingCache" value="கண்டறியப்பட்ட குறியாக்கங்களுக்குத் தற்காலிகச் சேமிப்பை இயக்கு"/>
+      <control name="btnCacheClear" value="தற்காலிகச் சேமிப்பை அழி"/>
+      <control name="lblForceEncoding" value="குறியாக்கத்தை வலியுறுத்து"/>
+      <control name="ThemeGroup" value="கருப்பொருள்"/>
+   </screen>
+   
+   <screen name="frmPrint" value="அச்சிடு">
+      <control name="cmdCancel" value="கைவிடு" />
+      <control name="lblSelect" value="தயவுசெய்து வெளியீட்டு வகையைத் தேர்ந்தெடு:" />
+      <control name="cmdPageSetup" value="பக்க அமைப்பு" />
+      <control name="cmdPrint" value="அச்சிடு" />
+      <control name="cmdPreview" value="முன்னோட்டம்" />
+      <control name="lblResultsMatch" value="முடிவுகள் பொருத்தம்:" />
+      <control name="rdbNone" value="ஏதுமில்லை" />
+      <control name="rdbBold" value="தடித்த எழுத்து" />
+      <control name="rdbColor" value="நிறம்" />
+   </screen>
+
+   <screen name="frmExclusions" value="விலக்குகள்">
+      <control name="btnEdit" value="திருத்து..." />
+      <control name="btnDelete" value="நீக்கு" />
+      <control name="btnAdd" value="சேர்..." />
+      <control name="btnOK" value="சரி" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="btnRestoreDefaults" value="இயல்புநிலைக்கு மீட்டமை" />
+   </screen>
+
+   <screen name="frmAddEditExclusions" value="விலக்குகள்">
+      <control name="lblCategory" value="வகை" />
+      <control name="lblType" value="விதம்" />
+      <control name="lblOptions" value="விருப்பங்கள்" />
+      <control name="lblValue" value="மதிப்பு" />
+      <control name="chkIgnoreCase" value="எழுத்துரு வகையை புறக்கணி" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="btnOK" value="சரி" />
+   </screen>
+
+   <screen name="frmCommandLine" value="விண்மீன்உலகவழக்கவெளிஅச்சு">
+      <control name="btnOK" value="சரி"/>
+   </screen>
+
+   <screen name="frmLogDisplay" value="செய்திகள்">
+      <control name="sbtnStatus" value="நிலை"/>
+      <control name="sbtnExclusions" value="விலக்கு"/>
+      <control name="sbtnError" value="பிழை"/>
+   </screen>
+
+   <screen name="frmCheckForUpdateTemp" value="புதுப்பிப்புகளைச் சரிபார்">
+      <control name="lblVersionCheck" value="புதுப்பிப்புகள் சரிபார்க்கப்படுகின்றன..." />
+   </screen>
+
+   <screen name="frmAddEditFileEncoding" value="கோப்பு குறியாக்கம்">
+      <control name="picBrowse" tooltip="உலாவு..." />
+      <control name="btnOK" value="சரி" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="lblFilePath" value="கோப்புப் பாதை" />
+      <control name="lblEncoding" value="குறியாக்கம்" />
+   </screen>
+
+   <screen name="frmPlugins" value="செருகுநிரல்கள்">
+      <control name="btnOK" value="சரி" />
+      <control name="btnCancel" value="கைவிடு" />
+      <control name="PluginDetailsGroup" value="செருகுநிரல் விவரங்கள்"/>
+      <control name="lblPluginDetailName" value="பெயர்:"/>
+      <control name="lblPluginDetailVersion" value="பதிப்பு:"/>
+      <control name="lblPluginDetailAuthor" value="ஆசிரியர்:"/>
+   </screen>
+   
+   <generic>
+      <text name="Browse" value="உலாவு..."/>
+      
+      <text name="SaveDialogTitle" value="முடிவுகளைச் சேமிக்க" />
+      <text name="SaveNoResults" value="தற்போது சேமிப்பதற்கு எந்த முடிவுகளும் இல்லை."/>
+      <text name="SaveError" value="முடிவுகளைச் சேமிக்க இயலவில்லை: {0}"/>
+      <text name="SaveSaving" value="முடிவுகள் கோப்பில் சேமிக்கப்படுகின்றன: {0}"/>
+      <text name="SaveSaved" value="முடிவுகள் சேமிக்கப்பட்டன"/>
+      
+      <text name="PrintTypeSelected" value="தேர்ந்தெடுக்கப்பட்ட உருப்படிகள்"/>
+      <text name="PrintTypeFile" value="கோப்புப் பட்டியல்"/>
+      <text name="PrintTypeAll" value="அனைத்தும்"/>
+      <text name="PrintErrorPageSettings" value="பக்க அமைப்புகளை ஏற்ற முயன்றபோது ஒரு பிழை ஏற்பட்டது. தற்போது உங்களுக்கு அச்சுப்பொறியை அணுகும் வசதி உள்ளதா என்பதை உறுதிப்படுத்தவும். ஒரு அச்சுப்பொறி இணைக்கப்பட்டிருக்க வேண்டும் மற்றும் அணுகல்...அச்சுப்பணி செயல்பட, ஒரு அச்சுப்பொறி இணைக்கப்பட்டு அணுகக்கூடிய நிலையில் இருக்க வேண்டும்."/>
+      <text name="PrintErrorPreview" value="அச்சு முன்னோட்டத்திற்காக ஆவணத்தை ஏற்ற முயன்றபோது ஒரு பிழை ஏற்பட்டது. தற்போது உங்களுக்கு ஒரு அச்சுப்பொறியை அணுகும் வசதி உள்ளதா என்பதை உறுதிப்படுத்தவும். அச்சுப்பணி செயல்பட, ஒரு அச்சுப்பொறி இணைக்கப்பட்டு அணுகக்கூடிய நிலையில் இருக்க வேண்டும்."/>
+      <text name="PrintErrorPrint" value="அச்சிடுவதற்காக ஆவணத்தை ஏற்ற முயன்றபோது ஒரு பிழை ஏற்பட்டது. தற்போது உங்களுக்கு ஒரு அச்சுப்பொறியை அணுகும் வசதி உள்ளதா என்பதை உறுதிப்படுத்தவும். அச்சுப்பணி செயல்பட, ஒரு அச்சுப்பொறி இணைக்கப்பட்டு அணுகக்கூடிய நிலையில் இருக்க வேண்டும்."/>
+      <text name="PrintErrorDocument" value="அச்சிடுவதற்கான ஆவணத்தை உருவாக்கும்போது ஒரு பிழை ஏற்பட்டது. ({0})"/>
+      <text name="PrintNoResults" value="தற்போது அச்சிடுவதற்குரிய முடிவுகள் எதுவும் இல்லை."/>
+      
+      <text name="OpenFolderDescription" value="தயவுசெய்து தொடக்க அடைவை தேர்ந்தெடு."/>
+      
+      <text name="VerifyErrorContextLines" value="சூழல் வரிகளின் எண்ணிக்கை {0} மற்றும் {1} ஆகியவற்றுக்கு இடைப்பட்டதாக இருக்க வேண்டும்."/>
+      <text name="VerifyErrorFileType" value="தேடுதலை மேற்கொள்ள வேண்டிய கோப்பின் பெயரை நீங்கள் வழங்க வேண்டும்."/>
+      <text name="VerifyErrorNoStartPath" value="தேடுதலைத் தொடங்குவதற்கான பாதையை நீங்கள் வழங்க வேண்டும்."/>
+      <text name="VerifyErrorInvalidStartPath" value="'{0}' என்பது ஒரு செல்லுபடியாகும் அடைவு அல்ல."/>
+      <text name="VerifyErrorNoSearchText" value="தேடுதலுக்கான உரையை நீங்கள் வழங்க வேண்டும்."/>
+      <text name="VerifyErrorInvalidRegEx" value="நீங்கள் வழங்கிய வழக்கமான வெளிப்பாடு செல்லுபடியற்றது ({0}). தயவுசெய்து உங்கள் வெளிப்பாட்டைச் சரிபார்."/>
+      <text name="VerifyErrorGeneric" value="குறிப்பிட்ட அளவுருக்களைச் சரிபார்க்க இயலவில்லை.அவை செல்லுபடியாகின்றனவா என்பதைச் சரிபார்."/>
+      <text name="VerifyErrorFileHitCount" value="குறைந்தஅளவு கோப்பு எண்ணிக்கை {0}-க்கு அதிகமாகவோ அல்லது சமமாகவோ இருக்க வேண்டும்."/>
+      <text name="VerifyErrorNoResultsToSearchIn" value="தேடுவதற்கு ஏற்ற முடிவுகள் எதுவும் இல்லை; புதிய தேடலை மேற்கொள்ள, 'முடிவுகளுக்குள் தேடு' என்பதைத் தேர்வுநீக்கம் செய்யவும்."/>
+
+      <text name="SearchGenericError" value="தேடும்போது ஒரு பிழை ஏற்பட்டது."/>
+      <text name="SearchFileError" value="கோப்பைத் தேடும்போது ஒரு பிழை ஏற்பட்டது: {0}."/>
+      <text name="SearchCancelled" value="தேடல் கைவிடப்பட்டது"/>
+      <text name="SearchFinished" value="தேடல் நிறைவடைந்தது"/>
+      <text name="SearchStarted" value="தேடல் தொடங்கப்பட்டது"/>
+      <text name="SearchSearching" value="{0}-ஐத் தேடுகிறது"/>
+      <text name="SearchSearchingByPlugin" value="இக்கோப்பைத் தேட {0} எனும் செருகுநிரல் பயன்படுத்தப்பட்டது." />
+      <text name="SearchExplorerItem" value="{0}-ஐப் பயன்படுத்தித் தேடுக..."/>
+
+      <text name="ResultsPreviewSpacerText" value="(21)"/>
+      <text name="ResultsPreviewText" value="முடிவுகளின் மாதிரி வரி மற்றும், பொருத்தம், ஆகியவை காட்டப்பட்டுள்ளன"/>
+      <text name="ResultsPreviewTextMatch" value="பொருத்தம்"/>
+      <text name="ResultsPreviewLargeBinaryFile" value="இது ஒரு பெரிய அல்லது இருமக் கோப்பு, இக்கோப்பு முழுவதையும் நீங்கள் பார்க்க விரும்புகிறீர்களா?"/>
+      
+      <text name="ColorOtherText" value="தனிப்பயன்..."/>
+      <!-- todo: color names -->
+      
+      <text name="TextEditorsErrorNoCmdLineForFile" value="இக்கோப்புப் பெயருக்கான கட்டளை வரி அளவுரு எதுவும் குறிப்பிடப்படவில்லை. &#xD;&#xA; கருவிகள் -> விருப்பங்கள் என்பதன் கீழ், கோப்பு அளவுருவைக் குறிப்பிடவும்."/>
+      <text name="TextEditorsErrorGeneric" value="கோப்பு {0}-ஐத் திருத்துவதில் பிழை ஏற்பட்டது.&#xD;&#xA;பின்வரும் சிக்கல் நிகழ்ந்தது: {1}"/>
+      <text name="TextEditorsBrowseTitle" value="உரை திருத்திச் செயல்படு கோப்பைத் தேர்ந்தெடு"/>
+      <text name="TextEditorsAllTypesDefined" value="அனைத்து வகைகள் உரை திருத்தி ஏற்கனவே வரையறுக்கப்பட்டுள்ளது."/>
+      <text name="TextEditorsColumnFileType" value="கோப்பு வகை"/>
+      <text name="TextEditorsColumnLocation" value="உரை திருத்தி"/>
+      <text name="TextEditorsColumnCmdLine" value="கட்டளை வரி"/>
+      <text name="TextEditorsColumnTabSize" value="தாவல் அளவு"/>
+      <text name="TextEditorsErrorNoEditor" value="தயவுசெய்து ஒரு உரை திருத்தியை வரையறு."/>
+      <text name="TextEditorsErrorFileTypeExists" value="இந்தக் கோப்பு வகை ஏற்கனவே உள்ளது. தயவுசெய்து மீண்டும் முயற்சி."/>
+      
+      <text name="ResultsColumnFile" value="பெயர்"/>
+      <text name="ResultsColumnLocation" value="அமைந்துள்ள இடம்"/>
+      <text name="ResultsColumnDate" value="மாற்றப்பட்ட தேதி"/>
+      <text name="ResultsColumnCount" value="எண்ணிக்கை"/>
+      <text name="ResultsColumnSize" value="அளவு"/>
+      <text name="ResultsColumnFileExt" value="கோப்பு நீட்டிப்பு"/>
+      
+      <text name="ResultsStatusTotalCount" value="மொத்தம்: {0} / {1}"/>
+      <text name="ResultsStatusFileCount" value="கோப்பு: {0} / {1}"/>
+      <text name="ResultsStatusFilterCount" value="விலக்குகள்: {0}"/>
+      <text name="ResultsStatusErrorCount" value="பிழை: {0}"/>
+
+      <text name="ResultsContextMenu.OpenFileCurrentLine" value="தற்போதைய வரியில் கோப்பைத் திற"/>
+      <text name="ResultsContextMenu.Copy" value="நகலெடு"/>
+      <text name="ResultsContextMenu.SelectAll" value="அனைத்தையும் தேர்ந்தெடு"/>
+      
+      <text name="PluginsColumnEnabled" value="இயக்கப்பட்டது"/>
+      <text name="PluginsColumnName" value="பெயர்"/>
+      <text name="PluginsColumnExtensions" value="நீட்டிப்புகள்"/>
+
+      <text name="Update.Current" value="{0} புதுப்பித்த நிலையில் உள்ளது ({1})"/>
+      <text name="Update.NewVersion" value="{0}-இன் பதிப்பு {1} கிடைக்கிறது."/>
+      <text name="Update.Latest" value="பதிவிறக்கம் {0} புதுப்பிப்பு {1}"/>
+      <text name="Update.Error" value="புதுப்பிப்புச் சரிபார்ப்பு தோல்வியடைந்தது"/>
+
+      <text name="Exclusions.Enabled" value="இயக்கப்பட்டது"/>
+      <text name="Exclusions.Category" value="வகை"/>
+      <text name="Exclusions.Type" value="விதம்"/>
+      <text name="Exclusions.Value" value="மதிப்பு"/>
+      <text name="Exclusions.Option" value="விருப்பங்கள்"/>
+
+      <text name="Exclusions.File" value="கோப்பு"/>
+      <text name="Exclusions.Directory" value="அடைவு"/>
+
+      <text name="Exclusions.Name" value="பெயர்"/>
+      <text name="Exclusions.Path" value="பாதை"/>
+      <text name="Exclusions.Hidden" value="மறைக்கப்பட்டதா"/>
+      <text name="Exclusions.System" value="முறைமையா"/>
+      <text name="Exclusions.DateModified" value="மாற்றப்பட்ட தேதி"/>
+      <text name="Exclusions.DateCreated" value="உருவாக்கப்பட்ட தேதி"/>
+      <text name="Exclusions.Extension" value="நீட்டிப்பு"/>
+      <text name="Exclusions.Size" value="அளவு"/>
+      <text name="Exclusions.Binary" value="இருமமா"/>
+      <text name="Exclusions.MinimumHitCount" value="குறைந்தஅளவு எண்ணிக்கை"/>
+      <text name="Exclusions.ReadOnly" value="படிக்க மட்டும்"/>
+            
+      <text name="Exclusions.None" value=""/>
+      <text name="Exclusions.Equals" value="சமம்"/>
+      <text name="Exclusions.Contains" value="உள்ளடக்கியது"/>
+      <text name="Exclusions.NotContains" value="உள்ளடக்காதது"/>
+      <text name="Exclusions.StartsWith" value="இதனுடன் தொடங்குகிறது"/>
+      <text name="Exclusions.EndsWith" value="இதனுடன் முடிகிறது"/>
+      <text name="Exclusions.NotEquals" value="சமமற்றது"/>
+      <text name="Exclusions.GreaterThan" value="இதைவிட அதிகம்"/>
+      <text name="Exclusions.GreaterThanEquals" value="இதைவிட அதிகம் அல்லது சமம்"/>
+      <text name="Exclusions.LessThan" value="இதைவிடக் குறைவு"/>
+      <text name="Exclusions.LessThanEquals" value="இதைவிடக் குறைவு அல்லது சமம்"/>
+      <text name="Exclusions.IgnoreCase" value=" (எழுத்து வழக்கை புறக்கணி)"/>
+
+      <text name="Exclusions.Error.NoCategory" value="தயவுசெய்து ஒரு பெறுவகையைத் தேர்ந்தெடு."/>
+      <text name="Exclusions.Error.NoType" value="தயவுசெய்து ஒரு வகையைத் தேர்ந்தெடு."/>
+      <text name="Exclusions.Error.NoValue" value="தயவுசெய்து ஒரு மதிப்பை உள்ளிடவும்."/>
+      <!--<text name="Exclusions.Error.InvalidExtensionFormat" value="தவறான கோப்பு நீட்டிப்பு வடிவம். இதன் வடிவம் .xxx ஆகும்"/>-->
+      <text name="Exclusions.Error.InvalidOptions" value="தயவுசெய்து ஒரு சரியான விருப்ப மதிப்பைத் தேர்ந்தெடு."/>
+      <text name="Exclusions.Error.TypeCategoryLimit" value="மன்னிக்கவும், {1} வகையின் கீழ் {0} வகையைச் சார்ந்த ஒன்றுக்கும் மேற்பட்ட உருப்படிகளை நீங்கள் கொண்டிருக்க இயலாது."/>
+      
+      <text name="ExclusionErrorMessageText" value="உங்கள் தேடலில், விலக்கப்பட்ட அல்லது பிழையை ஏற்படுத்திய உருப்படிகள் கண்டறியப்பட்டுள்ளன. &#xA;கீழ் வலது மூலையில் உள்ள தொடர்புடைய நிலைப்பட்டை உருப்படியை இருமுறை சொடுக்குவதன் மூலம் நீங்கள் இந்த உருப்படிகளைப் பார்வையிடலாம். &#xA;&#xA;இந்தச் செய்தியை 'விருப்பத்தேர்வுகள்' பகுதியில் நீங்கள் முடக்கலாம்."/>
+
+      <text name="LogDisplay.Column.Date" value="தேதி"/>
+      <text name="LogDisplay.Column.Type" value="வகை"/>
+      <text name="LogDisplay.Column.Value" value="மதிப்பு"/>
+      <text name="LogDisplay.Column.Details" value="விவரங்கள்"/>
+      <text name="LogDisplay.Status" value="நிலை"/>
+      <text name="LogDisplay.Exclusion" value="விலக்கு"/>
+      <text name="LogDisplay.Error" value="பிழை"/>
+
+      <text name="FileEncoding.Enabled" value="செயல்படுத்தப்பட்டது"/>
+      <text name="FileEncoding.FilePath" value="கோப்புப் பாதை"/>
+      <text name="FileEncoding.Encoding" value="குறியாக்கம்"/>
+      <text name="FileEncoding.Performance.Speed" value="வேகம்"/>
+      <text name="FileEncoding.Performance.Default" value="இயல்புநிலை"/>
+      <text name="FileEncoding.Performance.Accuracy" value="துல்லியம்"/>
+      <text name="FileEncoding.CacheCleared" value="இடையகம் வெற்றிகரமாக அழிக்கப்பட்டது."/>
+   
+      <text name="All" value="அனைத்தும்"/>
+      <text name="Documents" value="ஆவணங்கள்"/>
+      <text name="Code" value="குறியீடு"/>
+      <text name="Media" value="ஊடகம்"/>
+
+      <text name="Theme.System" value="முறைமை"/>
+      <text name="Theme.Light" value="ஒளி"/>
+      <text name="Theme.Dark" value="இருள்"/>
+   </generic>
+   
+</language>
