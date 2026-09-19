@@ -40,11 +40,11 @@
 		<Left>104</Left>
 		<Top>0</Top>
 		<Right>1020</Right>
-		<Bottom>751</Bottom>
+		<Bottom>750</Bottom>
 	</TMainFormWindowPlacement.rcNormalPosition>
 	<CheckForUpdateOptions Type="TCheckForUpdateOptions">
 		<LatestOnlineVersion>-1</LatestOnlineVersion>
-		<LastAutomaticCheckForUpdate>45601.9212501852</LastAutomaticCheckForUpdate>
+		<LastAutomaticCheckForUpdate>46284.6374001042</LastAutomaticCheckForUpdate>
 		<CheckForUpdatesAutomatically>True</CheckForUpdatesAutomatically>
 	</CheckForUpdateOptions>
 	<ContextMenuEntries>1</ContextMenuEntries>
