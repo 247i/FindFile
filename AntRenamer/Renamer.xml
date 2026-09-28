@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AntRenamer Version="2.13.0" Date="2026-08-25">
+ <Forms>
+  <Main State="0" Width="981" Height="644" Left="3" Top="0" AlwaysOnTop="True" FilesSortOrder="True" FilesSortColumn="-1" ActionsListWidth="295" BatchListHeight="100" EnableBatch="True" EnableSample="True" LogFilterOk="True" LogFilterError="True" LogFilterNot="True">
+   <Toolbars>
+    <tbProgram Rev="2000" Visible="1" DockedTo="tbdMain" LastDock="tbdMain" DockRow="0" DockPos="302" FloatLeft="0" FloatTop="0" FloatRightX="0" DisplayMode="0"/>
+    <tbTabs Rev="2000" Visible="1" DockedTo="tbdMain" LastDock="tbdMain" DockRow="0" DockPos="0" FloatLeft="0" FloatTop="0" FloatRightX="0" DisplayMode="0"/>
+    <tbFiles Rev="2000" Visible="1" DockedTo="tbdMain" LastDock="tbdMain" DockRow="2" DockPos="0" FloatLeft="0" FloatTop="0" FloatRightX="0" DisplayMode="0"/>
+    <tbActions Rev="2000" Visible="0" DockedTo="tbdMain" LastDock="tbdMain" DockRow="0" DockPos="301" FloatLeft="365" FloatTop="35" FloatRightX="0" DisplayMode="0"/>
+    <tbLog Rev="2000" Visible="0" DockedTo="tbdMain" LastDock="tbdMain" DockRow="1" DockPos="625" FloatLeft="0" FloatTop="0" FloatRightX="0" DisplayMode="0"/>
+    <tbMove Rev="2000" Visible="1" DockedTo="tbdMain" LastDock="tbdMain" DockRow="2" DockPos="673" FloatLeft="0" FloatTop="0" FloatRightX="0" DisplayMode="0"/>
+   </Toolbars>
+   <FilesListColumns>
+    <Column Nr="0" Position="0" Width="200" Visible="-1"/>
+    <Column Nr="1" Position="1" Width="400" Visible="-1"/>
+    <Column Nr="2" Position="2" Width="400" Visible="0"/>
+    <Column Nr="3" Position="3" Width="50" Visible="0"/>
+    <Column Nr="4" Position="4" Width="100" Visible="0"/>
+    <Column Nr="5" Position="5" Width="70" Visible="0"/>
+    <Column Nr="6" Position="6" Width="130" Visible="0"/>
+    <Column Nr="7" Position="7" Width="130" Visible="0"/>
+   </FilesListColumns>
+  </Main>
+  <SelectDirectory Width="350" Height="450"/>
+ </Forms>
+ <Options Language="Tamil.lng">
+  <Display ToolbarIconSet="Windows XP Large" RealtimeUpdate="True" ResizeColsFiles="False" ShowFilesIcons="True" ForceFont="True" FontName="Segoe UI" FontHeight="14" DropdownMax="20" DropdownComplete="False" DragDropNoAsk="True" LaunchFile="False">
+   <DragDropOptions AddFiles="True" AddFolders="False" Recursive="True"/>
+  </Display>
+  <Processing ForceDir="True" DetectAbsdir="True" FolderExt="False" Copy="False" GenerLog="True" DSTRelativeToFile="True" StartedSwitch="-1" StartedClearLog="True" FinishedSwitch="-1" FinishedClearFiles="False" FinishedClearBatch="False" SaveLog="False" SaveLogAppend="True" SaveLogFile=""/>
+ </Options>
+ <Folders>
+  <AddFiles Path="D:\அறிவிலி\பயன்\மேலும்\மறுபெயரிடுஎறும்பு\Languages\Tamil_help\"/>
+  <AddFolder/>
+  <FromList/>
+  <Batch/>
+ </Folders>
+ <Hints/>
+ <LastValues>
+  <MRU/>
+  <ChangeExt NewExt="உரை" NoReplace="False"/>
+  <StrRepl Search="_en" Repl="_ta" AllOccurences="True" CaseSensitive="True" IncludeExt="False" OnlyExt="False">
+   <Search Value="_en"/>
+   <Repl Value="_ta"/>
+  </StrRepl>
+  <MultstrRepl LastSet="" IncludeExt="False" CaseSensitive="True">
+   <Sets/>
+   <CurrentList>
+    <![CDATA[]]>
+   </CurrentList>
+  </MultstrRepl>
+  <StrIns Str="புதிய" Pos="0" FromBegin="True" Ext="False"/>
+  <MoveStr FromPos="0" FromBegin="True" Count="1" ToPos="0" ToBegin="True"/>
+  <CharDel Nb="1" AfterString="0" Pos="0" FromBegin="True" Str="str" Ext="False"/>
+  <Enum Mask="கோப்பு %num%%ext%" Start="1" Digits="3" Incr="1" Restart="False"/>
+  <MP3 Mask="%author% - %title%%ext" TwoDigit="False"/>
+  <DateTime Mask="yyyy&#39;-&#39;mm&#39;-&#39;dde" AddSuffix="False" WhichDate="1" Offset="0"/>
+  <Random Mask="%random%%ext%" Method="0"/>
+  <ChangeCase Option="0" AfterChars="- .+(" UseLocale="True" IncludeExt="False" OnlyExt="False"/>
+  <FromList AppendExt="False" OnlyExt="False">
+   <ListContents>
+    <![CDATA[]]>
+   </ListContents>
+  </FromList>
+  <Regexp Expr="" Repl=""/>
+  <Exif Mask="%datetime%%ext%" Offset="0"/>
+ </LastValues>
+</AntRenamer>
